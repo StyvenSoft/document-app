@@ -23,6 +23,27 @@ cd document-app
 
 ## Comandos básicos
 
+Iniciar el servidor web
+```bash
+symfony server:start
+```
+
+Archivos template
+```bash
+composer require template
+```
+
+Importar assets
+```bash
+composer require symfony/asset
+```
+
+Creación de controlador
+```bash
+composer require doctrine/annotations
+php bin/console make:controller <name>
+```
+
 Crea la base de datos (el armario).
 
 ```bash
